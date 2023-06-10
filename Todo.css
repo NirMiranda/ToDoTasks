@@ -1,0 +1,99 @@
+/* 
+    Name:Nir Miranda
+    ID:316554500
+    Name:Dorin Cohen
+    ID:211779947
+*/
+
+html {
+    height: 100%;
+  }
+  
+  body {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+  }
+  
+  header h1 {
+    font-size: 70px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    border-right: 4px solid #000;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .text1 {
+    align-items: center;
+    text-align: center;
+    margin: 0;
+  }
+  
+  form {
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    margin-right: 0.5rem;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  select {
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.25rem 0.5rem;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 2rem;
+    border: 2px solid black;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  button:hover {
+    background-color: #0062cc;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    background-color: #f2f2f2;
+    color: #000;
+  }
+  
+  td {
+    padding: 0.5rem;
+    border: 2px solid #aea5a5;
+  }
+  
+  td.actions {
+    text-align: center;
+  }
+  
+  td.very-important {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  td.important {
+    color: orange;
+  }
+  
+  td.not-very-important {
+    color: green;
+  }
+  
+  .firework {
+    animation: firework 2s infinite;
+    /* Existing CSS animation code */
+  }

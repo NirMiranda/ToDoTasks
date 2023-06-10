@@ -1,0 +1,56 @@
+<!--
+    Internet application developming Task 1.
+    Name:Nir Miranda
+    ID:316554500
+    Name:Dorin Cohen
+    ID:211779947
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>toDoList</title>
+    <link href="Todo.css" rel="stylesheet" />
+    <link rel="icon" href="./img/todo.png" />
+  </head>
+  <body>
+    <header>
+      <h1>TO DO LIST</h1>
+    </header>
+    <div class="text1">
+      <form>
+        <label for="task">Task:</label>
+        <input type="text" id="task" name="task" maxlength="30" />
+        <label for="targetDate">Target Date:</label>
+        <input type="date" id="targetDate" name="targetDate" />
+        <label for="importance">Importance:</label>
+        <select id="importance" name="importance">
+          <option value="Very Important">Very Important</option>
+          <option value="Important">Important</option>
+          <option value="Not Very Important">Not Very Important</option>
+        </select>
+        <button type="button" id="addTask">Add</button>
+      </form>
+      <table id="taskTable">
+        <thead>
+          <tr>
+            <th>Number</th>
+            <th>Task</th>
+            <th>Target Date</th>
+            <th>Importance</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="taskList"></tbody>
+      </table>
+    </div>
+    <div class="pyro">
+      <div class="before"></div>
+      <div class="after"></div>
+    </div>
+    <script src="task1.js" defer></script>
+  </body>
+</html>
