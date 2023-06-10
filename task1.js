@@ -1,7 +1,3 @@
-// Name:Nir Miranda
-// ID:316554500
-// Name:Dorin Cohen
-// ID:211779947
 
 const taskList = document.getElementById('taskList');
 const addTaskButton = document.getElementById('addTask');
